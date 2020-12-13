@@ -1,0 +1,217 @@
+#download-plain-file{
+    display: none;
+}
+
+.margin {
+    margin-right: 20px;
+}
+.download-plain-text {
+    padding:10px;
+}
+
+.container-report {
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    border: 2px solid #ccc;
+    color: #2F4F88;
+    font-family: "century gothic";
+    font-size: 12px;
+    background-color: #fafafa;
+}
+
+.container-report h4 {
+    color: #2F4F88;
+    font-size: 16px;
+}
+
+.container-report h5 {
+    color: #2F4F88;
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+.container-report h6 {
+    color: #2F4F88;
+    text-decoration: underline;
+    font-size: 13px;
+}
+
+.container-report input, .container-report select {
+    padding: 5px;
+}
+.container-report input::placeholder {
+    color: #ccc;
+}
+.container-report button, .export-report div button {
+    width: 15%;
+    min-width: 80px;
+    padding: 5px;
+    margin: 5px;
+    color: #2F4F88;
+    font-family: "century gothic";
+    font-weight: bold;
+    border: 1px solid #ccc;
+    outline: #727383;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.loading-container {
+    background:#fafafaaa center url('loading.gif') no-repeat;
+    width: 95%;
+    height: 100%;
+    position: fixed;
+    z-index: 1000;
+    top: 10px;
+    margin: auto;
+    display: none;
+}
+
+.export-report, .export-report-error {
+    background:#000000aa;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    display: none;
+}
+
+.export-report > div, .export-report-error > div{
+    position: fixed;
+    width: 30%;
+    background-color: #fafafa;
+    border: 1px solid #e0e0e0;
+    margin: auto;
+    top: 30%;
+    left: 35%;
+}
+
+.download-image{   
+    margin-top: 5%;
+    margin-left: 45%;
+    background: url('download-32.png') no-repeat;
+    width: 32px;
+    height: 32px;
+}
+
+.error-image{   
+    margin-top: 5%;
+    margin-left: 45%;
+    background: url('error.png') no-repeat;
+    width: 32px;
+    height: 32px;
+}
+
+.export-report div p{
+    margin-top: 1%;
+    margin-left: 32%;
+    color: #2F4F88;
+    font-family: "century gothic";
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.export-report-error div span {
+    margin-left: 30%;
+}
+
+.export-report-error {
+    color: red;
+}
+
+.export-report div a{
+    display: none;
+}
+
+.export-report div button, .export-report-error div button {
+    top: 10%;
+    margin-left: 30%;
+    width: 35%;
+}
+
+.export-report div span {
+    top: 10%;
+    margin-left: 20%;
+    width: 40%;
+    color: #2F4F88;
+    font-family: "century gothic";
+}
+
+/*-----------------------------*/
+
+.list {
+    width: 200px;
+    padding: 10px;
+    border: 2px solid #fafafa;
+    color: #2F4F88;
+    font-family: "century gothic";
+    font-size: 12px;
+    background-color: #fafafa;
+}
+
+.list div {
+    padding: 5px;
+}
+
+.list-left {
+    height: 200px;
+    overflow: auto;
+    background-color: #ececec;
+}
+.list-left > div:hover {
+    background-color: #fafafa;
+}
+.list .section-all {
+    margin-top: 10px;
+    padding: 5px;
+    text-decoration: underline;
+}
+.list .total-registers {
+    font-size: 10px;
+}
+.filter-list {
+    float: left;
+    background-color: #fafafa;
+    padding: 10px;
+    display: block;
+}
+.fast-filter {
+    background-color:#fafafa;
+    color: #fafafa;
+}
+.fast-filter-item {
+    background-color: #2F4F88;
+    padding: 5px;
+    margin: 3px;
+    border:1px solid #ccc;
+}
+.fast-filter-item:hover {
+    color: #2F4F88;
+    background-color: #fafafa;
+    padding: 5px;
+    margin: 3px;
+
+}
+.filters {
+    background-color: #fafafa;
+    padding: 10px;
+}
+.filters span {
+    background-color: #2F4F88;
+    border: 1px solid #ccc;
+    color: #fafafa;
+    font-size: 14px;
+    padding: 5px;
+}
+.filters span:hover {
+    background-color: #fafafa;
+    color: #2F4F88;
+}
+
+.clear {
+    clear: both;
+}

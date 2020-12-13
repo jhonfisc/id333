@@ -1,0 +1,70 @@
+<div id="legon-module">    
+    <div class="container-report">
+        <div class="filters-report">
+            <h4>Plano Asobancaria 2001 - Recaudo Legón</h4>
+            <hr />
+            <h5>Filtros Disponibles</h5>
+            <h6>Periodo Actual</h6>
+            <div class="date-filter">
+                <span>Desde:</span>
+                <input id="from-date-filter" type="number" min="1" max="31" value="" placeholder="...Ingrese el dia" />
+                <span>Hasta:</span>
+                <input id="to-date-filter" type="number" min="1" max="31" value="" placeholder="...Ingrese el dia"/>
+            </div>
+            <button id="query-from-filters" class="query-from-filters">Buscar</button>
+            <br />
+            <hr />
+            <h6>Periodos Anteriores</h6>
+            <div class="date-filter">
+                <span>Periodo</span>
+                <span>Año</span>
+                <select id="year-old">
+                    </select>
+                <span>Mes</span>
+                <select id="month-old">
+                    <option value="01">Enero</option>
+                    <option value="02">Febrero</option>
+                    <option value="03">Marzo</option>
+                    <option value="04">Abril</option>
+                    <option value="05">Mayo</option>
+                    <option value="06">Junio</option>
+                    <option value="07">Julio</option>
+                    <option value="08">Agosto</option>
+                    <option value="09">Septiembre</option>
+                    <option value="10">Octubre</option>
+                    <option value="11">Noviembre</option>
+                    <option value="12">Diciembre</option>
+                </select><br /><br />
+                <span>Desde:</span>
+                <input id="oldfrom-date-filter" type="number" min="1" max="31" value="" placeholder="...Ingrese el dia" />
+                <span>Hasta:</span>
+                <input id="oldto-date-filter" type="number" min="1" max="31" value="" placeholder="...Ingrese el dia"/>
+            </div>
+            <button id="queryold-from-filters" class="query-from-filters">Buscar</button>
+            <a id="download-plain-file"></a>
+        </div>
+        <hr />
+    </div>
+    <div id="export-report" class="export-report">
+        <div>
+            <div id="download-file">
+                <div class="download-image"> </div>
+                <p>Descargar Archivo</p>
+                <span id="download-date"></span>
+            </div>
+            <button id="close-download-modal">Aceptar</button>
+        </div>
+    </div>
+    <div id="export-report-error" class="export-report-error">
+        <div>
+            <div class="error-image"> </div>
+            <span>Error en las fechas ingresadas.</span>
+            <br />
+            <span>Intentelo nuevamente</span>
+            <button id="close-error-modal">Aceptar</button>
+            <br />
+        </div>
+    </div>
+    <div id="loading-container" class="loading-container"></div>
+    <input id="paramConfig" value="192.168.237.165" type="hidden" />
+</div>
