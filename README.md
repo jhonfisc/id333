@@ -25,3 +25,7 @@ DevServer
         port: 8080,
         disableHostCheck: true
     }
+
+Backend
+
+- estos son archivos php bajo el framework codeigniter, deben copiarsen en el proyecto correspondiente sgeun instrucciones de despliegue
